@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free website about HTML - How HTML works">
+    <meta name="keywords" content="HTML, Website, HowItWorks, HowHTMLWorks">
+    <meta name="author" content="Karel Vlk">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>How HTML works</title>
+  </head>
+  <body>
+    <div class="titleContainer">
+        <div class="titleBox">
+            <h1>How HTML works</h1>
+        </div>
+        <div class="linkBox">
+            <div class="link">
+                <a href="./index.html">Back to main site</a>
+            </div>
+        </div>
+    </div>
+    <div class='contentContainer'>
+        <div class="textContent">
+            <article>
+                <section>
+                    <h2>How does HTML work?</h2>
+                    <p>The average website includes several different HTML pages. For instance, a home page, an about page, and a contact page would all have separate HTML files.</p>
+                    <p>HTML documents are files that end with a .html or .htm extension. A web browser reads the HTML file and renders its content so that internet users can view it.</p>
+                    <p>All HTML pages have a series of HTML elements, consisting of a set of tags and attributes. HTML elements are the building blocks of a web page. A tag tells the web browser where an element begins and ends, whereas an attribute describes the characteristics of an element. </p>
+                </section>
+                <section>
+                    <h3>The three main parts of an element:</h3>
+                    <ul>
+                        <li>
+                            Opening tag – used to state where an element starts to take effect. The tag is wrapped with opening and closing angle brackets. For example, use the start tag &lt;/p&gt; to create a paragraph.
+                        <br/><br/></li>
+                        <li>
+                            Content – this is the output that other users see.
+                        <br/><br/></li>
+                        <li>
+                            Closing tag – the same as the opening tag, but with a forward slash before the element name. For example, &lt;/p&gt; to end a paragraph.
+                        <br/><br/></li>
+                    </ul>
+                    <p>The combination of these three parts will create an HTML element:</p>
+                    <blockquote><i>&lt;p&gt;<b>This</b> is how you add a paragraph <b>in</b> HTML.&lt;/p&gt;</i></blockquote>
+                </section>
+                <section>
+                    <h3>Attributes</h3>
+                    <p>Another critical part of an HTML element is its attribute, which has two sections – a name and attribute value. The name identifies the additional information that a user wants to add, while the attribute value gives further specifications. </p>
+                    <p>Another attribute, the HTML class, is most important for development and programming. The class attribute adds style information that can work on different elements with the same class value. </p>
+                    <p>Most elements have an opening and a closing tag, but some elements do not need closing tags to work, such as empty elements. These elements do not use an end tag because they do not have content:</p>
+                    <blockquote><i>&lt;img src="/" alt="Image"&gt;</i></blockquote>
+                    <p>This image tag has two attributes – an src attribute, the image path, and an alt attribute, the descriptive text. However, it does not have content nor an end tag.</p>
+                    <p>Lastly, every HTML document must start with a &lt;!DOCTYPE&gt; declaration to inform the web browser about the document type. With HTML5, the doctype HTML public declaration will be:</p>
+                    <blockquote><i>&lt;!DOCTYPE html&gt;</i></blockquote>
+                </section>
+            </article>
+        </div>
+    </div>
+    <div class="footerContainer">
+        <p>Website about HTML created by Karel Vlk, 2021</p>
+    </div>
+  </body>
+</html>
